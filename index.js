@@ -3,9 +3,9 @@ const returnFirstTwoDrivers = function(array){
   return array.slice(0,2);
 }
 const returnLastTwoDrivers = function(array){
-  return array.slice(array.length-3,array.length);
+  return array.slice(array.length-2,array.length);
 }
-const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
+let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
 function createFareMultiplier(num){
   return function(fare){
